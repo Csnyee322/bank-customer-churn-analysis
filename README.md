@@ -1,4 +1,4 @@
-# Bank Customer Churn Analysis (SQL)
+# Bank Customer Churn Analysis
 
 ## Project Background
 
@@ -149,4 +149,3 @@ View the interactive Tableau dashboard here: [Bank Customer Churn Dashboard](htt
 
 - The dataset does not include specific product types (only a count of products held), limiting the ability to pinpoint which product or combination is driving the high churn among multi-product customers.
 - Future analysis could incorporate customer service interaction logs, transaction history, or survey data to better understand the "why" behind these patterns.
-- A predictive model (e.g., logistic regression or classification tree) could be built as a natural extension of this descriptive analysis.
