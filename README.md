@@ -131,6 +131,12 @@ A Welch's two-sample t-test was performed to formally test whether credit score 
 
 ---
 
+## Interactive Dashboard
+
+View the interactive Tableau dashboard here: [Bank Customer Churn Dashboard](https://public.tableau.com/views/BankCustomerChurnDashboard_17837552999930/BankCustomerChurnDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+---
+
 ## Summary of Business Recommendations
 
 1. **Investigate product bundling practices** for customers holding 3+ products — the unusually high churn rate suggests a possible cross-selling or product experience issue.
