@@ -181,7 +181,7 @@ Logistic regression coefficients highlighted the most influential predictors of 
 
 ## Interactive Dashboard
 
-View the interactive Tableau dashboard here: [Bank Customer Churn Dashboard](https://public.tableau.com/views/BankCustomerChurnDashboard_17837552999930/BankCustomerChurnDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+View the interactive Tableau dashboard here: [Bank Customer Churn Analysis Dashboard](https://public.tableau.com/views/BankCustomerChurnAnalysisDashboard_17841154606870/BankCustomerChurnAnalysisDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 The dashboard includes:
 - **Overall churn rate** (19.65% churned vs. 80.35% retained)
