@@ -10,8 +10,7 @@ from sklearn.metrics import (
     precision_recall_curve,
 )
 
-# matplotlib's default font doesn't support Chinese characters,
-# these two lines fix that (Mac system font)
+# matplotlib's default font doesn't support Chinese characters, these two lines fix that
 plt.rcParams['font.sans-serif'] = ['Arial Unicode MS']
 plt.rcParams['axes.unicode_minus'] = False
 
@@ -47,8 +46,7 @@ print("Test set size:", X_test.shape)
 print(X_train.head())
 
 # -----------------------------------------------------------
-# 3. Train logistic regression (with class_weight='balanced'
-#    to address class imbalance, ~20% churned vs. ~80% retained)
+# 3. Train logistic regression (with class_weight='balanced' to address class imbalance, ~20% churned vs. ~80% retained)
 # -----------------------------------------------------------
 model = LogisticRegression(max_iter=1000, class_weight='balanced')
 model.fit(X_train, y_train)
@@ -146,8 +144,7 @@ plt.grid(True)
 plt.show()
 
 # -----------------------------------------------------------
-# 9. Export predictions for Tableau visualization
-#    (keep original text labels for Geography, Gender, etc.)
+# 9. Export predictions for Tableau visualization (keep original text labels for Geography, Gender, etc.)
 # -----------------------------------------------------------
 export_df = df.loc[X_test.index].copy()
 
