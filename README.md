@@ -1,5 +1,8 @@
 # Bank Customer Churn Analysis
 
+## Executive Summary
+This analysis identifies which customers a U.S. bank is losing and why, then translates those patterns into a prioritized retention action plan. Three findings stand out: customers holding 3+ products churn at 82–100% (likely a cross-selling/bundling problem, not loyalty), inactive members churn at nearly 2x the rate of active ones, and churned customers disproportionately hold high-value balances (24% of deposits from only 20% of customers). A Random Forest model built on these drivers flags ~475 high-risk customers for proactive outreach, giving the bank a concrete, ranked list rather than a population-wide guess.
+
 ## Project Background
 
 This project analyzes a U.S. bank's customer dataset to understand the key factors driving customer churn — i.e., which customers are leaving the bank and why. The goal is to identify actionable patterns that could help the bank design more effective customer retention strategies.
